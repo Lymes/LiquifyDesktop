@@ -1,0 +1,72 @@
+
+/* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
+"29.title" = "AMainMenu";
+
+/* Class = "NSMenuItem"; title = "LiquifyDesktop"; ObjectID = "56"; */
+"56.title" = "LiquifyDesktop";
+
+/* Class = "NSMenu"; title = "LiquifyDesktop"; ObjectID = "57"; */
+"57.title" = "LiquifyDesktop";
+
+/* Class = "NSMenuItem"; title = "About LiquifyDesktop"; ObjectID = "58"; */
+"58.title" = "About LiquifyDesktop";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; */
+"129.title" = "Preferences…";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Hide LiquifyDesktop"; ObjectID = "134"; */
+"134.title" = "Hide LiquifyDesktop";
+
+/* Class = "NSMenuItem"; title = "Quit LiquifyDesktop"; ObjectID = "136"; */
+"136.title" = "Quit LiquifyDesktop";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Hide Others";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "490"; */
+"490.title" = "Help";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "491"; */
+"491.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "LiquifyDesktop Help"; ObjectID = "492"; */
+"492.title" = "LiquifyDesktop Help";
+
+/* Class = "NSMenuItem"; title = "Preferences..."; ObjectID = "561"; */
+"561.title" = "Preferences...";
+
+/* Class = "NSMenuItem"; title = "Quit"; ObjectID = "563"; */
+"563.title" = "Quit";
+
+/* Class = "NSWindow"; title = "LiquifyDesktop Preferences"; ObjectID = "567"; */
+"567.title" = "LiquifyDesktop Preferences";
+
+/* Class = "NSButtonCell"; title = "Follow mouse pointer"; ObjectID = "570"; */
+"570.title" = "Follow mouse pointer";
+
+/* Class = "NSButtonCell"; title = "Generate random waves"; ObjectID = "572"; */
+"572.title" = "Generate random waves";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "576"; */
+"576.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Submit feedback"; ObjectID = "594"; */
+"594.title" = "Submit feedback";
+
+/* Class = "NSTextFieldCell"; title = "Please take the time to give your feedback"; ObjectID = "599"; */
+"599.title" = "Please take a time to give your feedback";
+
+/* Class = "NSButtonCell"; title = "Show icon at the Dock"; ObjectID = "664"; */
+"664.title" = "Show icon at the Dock";
+
+/* Class = "NSButtonCell"; title = "Play music in background"; ObjectID = "668"; */
+"668.title" = "Play music in background";

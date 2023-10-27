@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleGetInfoString = "v1.7, Copyright 2017 L.Y.Mesentsev. All rights reserved.";
+NSHumanReadableCopyright = "Copyright © 2017, L.Y.Mesentsev. All rights reserved.";

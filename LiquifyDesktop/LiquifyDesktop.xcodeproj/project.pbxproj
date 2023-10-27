@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B07F4E321A49F4300A574BC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B07F4E121A49F4300A574BC /* GLKit.framework */; };
+		1B1EE93D15429E660022859A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1EE93C15429E660022859A /* AVFoundation.framework */; };
+		1B3AC12C1B629C3E00CFD3D8 /* serenade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AC12B1B629C3E00CFD3D8 /* serenade.mp3 */; };
+		1B3AC1301B629C5E00CFD3D8 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AC12D1B629C5E00CFD3D8 /* MainController.m */; };
+		1B3AC1311B629C5E00CFD3D8 /* MainController+Controls.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AC12F1B629C5E00CFD3D8 /* MainController+Controls.m */; };
+		1B5758211B61A65D009FA095 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5758201B61A65D009FA095 /* ServiceManagement.framework */; };
+		1B7076771F842C3D00894EB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B7076711F842C3D00894EB6 /* InfoPlist.strings */; };
+		1B7076781F842C3D00894EB6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1B7076741F842C3D00894EB6 /* Credits.rtf */; };
+		1B7076841F842D5A00894EB6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B7076821F842D5900894EB6 /* MainMenu.xib */; };
+		1B939B5A1B63BE8700D9F8B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B939B591B63BE8700D9F8B6 /* AppDelegate.m */; };
+		1BA32ED31B629BCC001CAA0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA32EC81B629BCC001CAA0B /* Images.xcassets */; };
+		1BCC10221B603B2E0013075B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC10161B603B2E0013075B /* main.m */; };
+		1BCC10241B603B2E0013075B /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC101A1B603B2E0013075B /* MyOpenGLView.m */; };
+		1BCC10251B603B2E0013075B /* RippleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC101D1B603B2E0013075B /* RippleModel.m */; };
+		1BCC10261B603B2E0013075B /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC101F1B603B2E0013075B /* Scene.m */; };
+		1BCC10271B603B2E0013075B /* Texture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC10211B603B2E0013075B /* Texture.m */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		AF9DBBC6113C611C00D05754 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9DBBC5113C611C00D05754 /* QuartzCore.framework */; };
+		AFD4D88A113C504F00C2DE76 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD4D889113C504F00C2DE76 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BE4B5841B62A4EB00AECE7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5758171B61A49A009FA095 /* LiquifyDesktopHelperApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2247EC0115A2300E00A5C034;
+			remoteInfo = LiquifyDesktopHelperApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B5758151B61A368009FA095 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		14B2AE2B1541A83900E0179C /* LiquifyDesktop_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LiquifyDesktop_Prefix.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1B07F4E121A49F4300A574BC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1B1EE8E91541D0E10022859A /* LiquifyDesktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LiquifyDesktop.entitlements; sourceTree = "<group>"; };
+		1B1EE93C15429E660022859A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1B3AC12B1B629C3E00CFD3D8 /* serenade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = serenade.mp3; sourceTree = "<group>"; };
+		1B3AC12D1B629C5E00CFD3D8 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		1B3AC12E1B629C5E00CFD3D8 /* MainController+Controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainController+Controls.h"; sourceTree = "<group>"; };
+		1B3AC12F1B629C5E00CFD3D8 /* MainController+Controls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainController+Controls.m"; sourceTree = "<group>"; };
+		1B5757FB1B617690009FA095 /* BundleVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BundleVersion.h; path = LiquifyDesktop/BundleVersion.h; sourceTree = "<group>"; };
+		1B5758171B61A49A009FA095 /* LiquifyDesktopHelperApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LiquifyDesktopHelperApp.xcodeproj; path = LiquifyDesktopHelperApp/LiquifyDesktopHelperApp.xcodeproj; sourceTree = "<group>"; };
+		1B5758201B61A65D009FA095 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		1B7076721F842C3D00894EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LiquifyDesktop/Resources/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		1B7076731F842C3D00894EB6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = LiquifyDesktop/Resources/ru.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		1B7076751F842C3D00894EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = LiquifyDesktop/Resources/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		1B7076761F842C3D00894EB6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ru; path = LiquifyDesktop/Resources/ru.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		1B7076831F842D5900894EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1B7076861F842D6200894EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		1B7076871F842D6600894EB6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		1B939B581B63BE8700D9F8B6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B939B591B63BE8700D9F8B6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BA32EC81B629BCC001CAA0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LiquifyDesktop/Resources/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		1BCC10161B603B2E0013075B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LiquifyDesktop/src/main.m; sourceTree = "<group>"; };
+		1BCC10181B603B2E0013075B /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		1BCC10191B603B2E0013075B /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		1BCC101A1B603B2E0013075B /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		1BCC101C1B603B2E0013075B /* RippleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleModel.h; sourceTree = "<group>"; };
+		1BCC101D1B603B2E0013075B /* RippleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleModel.m; sourceTree = "<group>"; };
+		1BCC101E1B603B2E0013075B /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		1BCC101F1B603B2E0013075B /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		1BCC10201B603B2E0013075B /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		1BCC10211B603B2E0013075B /* Texture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture.m; sourceTree = "<group>"; };
+		1BCC103D1B603BC60013075B /* LiquifyDesktop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LiquifyDesktop-Info.plist"; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* LiquifyDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquifyDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9DBBC5113C611C00D05754 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AFD4D889113C504F00C2DE76 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B07F4E321A49F4300A574BC /* GLKit.framework in Frameworks */,
+				1B5758211B61A65D009FA095 /* ServiceManagement.framework in Frameworks */,
+				1B1EE93D15429E660022859A /* AVFoundation.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				AFD4D88A113C504F00C2DE76 /* OpenGL.framework in Frameworks */,
+				AF9DBBC6113C611C00D05754 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B5758201B61A65D009FA095 /* ServiceManagement.framework */,
+				1B1EE93C15429E660022859A /* AVFoundation.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				AFD4D889113C504F00C2DE76 /* OpenGL.framework */,
+				AF9DBBC5113C611C00D05754 /* QuartzCore.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* LiquifyDesktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B3AC12A1B629C3E00CFD3D8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AC12B1B629C3E00CFD3D8 /* serenade.mp3 */,
+			);
+			name = Sounds;
+			path = LiquifyDesktop/Resources/Sounds;
+			sourceTree = SOURCE_ROOT;
+		};
+		1BCC10151B603B2E0013075B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1BCC101B1B603B2E0013075B /* RippleModel */,
+				1BCC10181B603B2E0013075B /* MainController.h */,
+				1B3AC12D1B629C5E00CFD3D8 /* MainController.m */,
+				1B3AC12E1B629C5E00CFD3D8 /* MainController+Controls.h */,
+				1B3AC12F1B629C5E00CFD3D8 /* MainController+Controls.m */,
+				1BCC10191B603B2E0013075B /* MyOpenGLView.h */,
+				1BCC101A1B603B2E0013075B /* MyOpenGLView.m */,
+				1BCC101E1B603B2E0013075B /* Scene.h */,
+				1BCC101F1B603B2E0013075B /* Scene.m */,
+				1BCC10201B603B2E0013075B /* Texture.h */,
+				1BCC10211B603B2E0013075B /* Texture.m */,
+				1B939B581B63BE8700D9F8B6 /* AppDelegate.h */,
+				1B939B591B63BE8700D9F8B6 /* AppDelegate.m */,
+			);
+			name = src;
+			path = LiquifyDesktop/src;
+			sourceTree = "<group>";
+		};
+		1BCC101B1B603B2E0013075B /* RippleModel */ = {
+			isa = PBXGroup;
+			children = (
+				1BCC101C1B603B2E0013075B /* RippleModel.h */,
+				1BCC101D1B603B2E0013075B /* RippleModel.m */,
+			);
+			path = RippleModel;
+			sourceTree = "<group>";
+		};
+		1BCC10291B603B440013075B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B7076821F842D5900894EB6 /* MainMenu.xib */,
+				1B7076741F842C3D00894EB6 /* Credits.rtf */,
+				1B7076711F842C3D00894EB6 /* InfoPlist.strings */,
+				1B3AC12A1B629C3E00CFD3D8 /* Sounds */,
+				1BA32EC81B629BCC001CAA0B /* Images.xcassets */,
+			);
+			name = Resources;
+			path = LiquifyDesktop/Resources;
+			sourceTree = "<group>";
+		};
+		1BE4B5811B62A4EB00AECE7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BE4B5851B62A4EB00AECE7D /* LiquifyDesktopHelperApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* GLFullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1B5758171B61A49A009FA095 /* LiquifyDesktopHelperApp.xcodeproj */,
+				1BCC10151B603B2E0013075B /* src */,
+				1BCC10291B603B440013075B /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = GLFullScreen;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1B5757FB1B617690009FA095 /* BundleVersion.h */,
+				1BCC103D1B603BC60013075B /* LiquifyDesktop-Info.plist */,
+				1BCC10161B603B2E0013075B /* main.m */,
+				1B1EE8E91541D0E10022859A /* LiquifyDesktop.entitlements */,
+				14B2AE2B1541A83900E0179C /* LiquifyDesktop_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B07F4E121A49F4300A574BC /* GLKit.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* LiquifyDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LiquifyDesktop" */;
+			buildPhases = (
+				1BCC10141B603A640013075B /* ShellScript */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				1B5758151B61A368009FA095 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiquifyDesktop;
+			productInstallPath = "$(HOME)/Applications";
+			productName = GLFullScreen;
+			productReference = 8D1107320486CEB800E47090 /* LiquifyDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						DevelopmentTeam = QVFBZ7RHN2;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LiquifyDesktop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				ru,
+				Base,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* GLFullScreen */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BE4B5811B62A4EB00AECE7D /* Products */;
+					ProjectRef = 1B5758171B61A49A009FA095 /* LiquifyDesktopHelperApp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* LiquifyDesktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BE4B5851B62A4EB00AECE7D /* LiquifyDesktopHelperApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LiquifyDesktopHelperApp.app;
+			remoteRef = 1BE4B5841B62A4EB00AECE7D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7076781F842C3D00894EB6 /* Credits.rtf in Resources */,
+				1B7076841F842D5A00894EB6 /* MainMenu.xib in Resources */,
+				1B3AC12C1B629C3E00CFD3D8 /* serenade.mp3 in Resources */,
+				1B7076771F842C3D00894EB6 /* InfoPlist.strings in Resources */,
+				1BA32ED31B629BCC001CAA0B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BCC10141B603A640013075B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildPlist=${INFOPLIST_FILE}\nBundleShortVersion=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$buildPlist\")\nBuildVersion=$(/bin/date +%Y%m%d)0\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BundleShortVersion.$BuildVersion\" \"$buildPlist\"\necho \"#define BUNDLE_VERSION @\\\"$BundleShortVersion.$BuildVersion\\\"\" > LiquifyDesktop/BundleVersion.h";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCC10261B603B2E0013075B /* Scene.m in Sources */,
+				1BCC10221B603B2E0013075B /* main.m in Sources */,
+				1BCC10251B603B2E0013075B /* RippleModel.m in Sources */,
+				1B3AC1311B629C5E00CFD3D8 /* MainController+Controls.m in Sources */,
+				1B939B5A1B63BE8700D9F8B6 /* AppDelegate.m in Sources */,
+				1BCC10241B603B2E0013075B /* MyOpenGLView.m in Sources */,
+				1B3AC1301B629C5E00CFD3D8 /* MainController.m in Sources */,
+				1BCC10271B603B2E0013075B /* Texture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B7076711F842C3D00894EB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7076721F842C3D00894EB6 /* en */,
+				1B7076731F842C3D00894EB6 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B7076741F842C3D00894EB6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7076751F842C3D00894EB6 /* en */,
+				1B7076761F842C3D00894EB6 /* ru */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1B7076821F842D5900894EB6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7076831F842D5900894EB6 /* Base */,
+				1B7076861F842D6200894EB6 /* en */,
+				1B7076871F842D6600894EB6 /* ru */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = LiquifyDesktop.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiquifyDesktop_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LiquifyDesktop-Info.plist";
+				INSTALL_PATH = /Applications;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lymes.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LiquifyDesktop;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = LiquifyDesktop.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiquifyDesktop_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LiquifyDesktop-Info.plist";
+				INSTALL_PATH = /Applications;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lymes.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LiquifyDesktop;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Leo Mesentsev";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "D0F8FCCA-0F21-466F-BB92-251A455FBEF8";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Leo Mesentsev";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PROVISIONING_PROFILE = "D0F8FCCA-0F21-466F-BB92-251A455FBEF8";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LiquifyDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LiquifyDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

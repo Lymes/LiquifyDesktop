@@ -1,0 +1,72 @@
+
+/* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
+"29.title" = "AMainMenu";
+
+/* Class = "NSMenuItem"; title = "LiquifyDesktop"; ObjectID = "56"; */
+"56.title" = "LiquifyDesktop";
+
+/* Class = "NSMenu"; title = "LiquifyDesktop"; ObjectID = "57"; */
+"57.title" = "LiquifyDesktop";
+
+/* Class = "NSMenuItem"; title = "О программе LiquifyDesktop"; ObjectID = "58"; */
+"58.title" = "О программе LiquifyDesktop";
+
+/* Class = "NSMenuItem"; title = "Настройки..."; ObjectID = "129"; */
+"129.title" = "Настройки...";
+
+/* Class = "NSMenu"; title = "Сервисы"; ObjectID = "130"; */
+"130.title" = "Сервисы";
+
+/* Class = "NSMenuItem"; title = "Сервисы"; ObjectID = "131"; */
+"131.title" = "Сервисы";
+
+/* Class = "NSMenuItem"; title = "Скрыть LiquifyDesktop"; ObjectID = "134"; */
+"134.title" = "Скрыть LiquifyDesktop";
+
+/* Class = "NSMenuItem"; title = "Завершить LiquifyDesktop"; ObjectID = "136"; */
+"136.title" = "Завершить LiquifyDesktop";
+
+/* Class = "NSMenuItem"; title = "Скрыть Остальные"; ObjectID = "145"; */
+"145.title" = "Скрыть Остальные";
+
+/* Class = "NSMenuItem"; title = "Показать Все"; ObjectID = "150"; */
+"150.title" = "Показать Все";
+
+/* Class = "NSMenuItem"; title = "Справка"; ObjectID = "490"; */
+"490.title" = "Справка";
+
+/* Class = "NSMenu"; title = "Справка"; ObjectID = "491"; */
+"491.title" = "Справка";
+
+/* Class = "NSMenuItem"; title = "Справка о LiquifyDesktop"; ObjectID = "492"; */
+"492.title" = "Справка о LiquifyDesktop";
+
+/* Class = "NSMenuItem"; title = "Настройки"; ObjectID = "561"; */
+"561.title" = "Настройки";
+
+/* Class = "NSMenuItem"; title = "Завершить"; ObjectID = "563"; */
+"563.title" = "Завершить";
+
+/* Class = "NSWindow"; title = "Настройки LiquifyDesktop"; ObjectID = "567"; */
+"567.title" = "Настройки LiquifyDesktop";
+
+/* Class = "NSButtonCell"; title = "Следовать за указателем мыши"; ObjectID = "570"; */
+"570.title" = "Следовать за указателем мыши";
+
+/* Class = "NSButtonCell"; title = "Генерировать волны"; ObjectID = "572"; */
+"572.title" = "Генерировать волны";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "576"; */
+"576.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Отправить отзыв"; ObjectID = "594"; */
+"594.title" = "Отправить отзыв";
+
+/* Class = "NSButtonCell"; title = "Показывать иконку"; ObjectID = "664"; */
+"664.title" = "Показывать иконку";
+
+/* Class = "NSTextFieldCell"; title = "Пожалуйста, уделите пару минут и отправьте отзыв"; ObjectID = "668"; */
+"599.title" = "Пожалуйста, уделите пару минут и отправьте отзыв";
+
+/* Class = "NSButtonCell"; title = "Фоновая музыка"; ObjectID = "670"; */
+"668.title" = "Фоновая музыка";
